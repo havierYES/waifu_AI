@@ -13,7 +13,7 @@ inference: false
 
 waifu-diffusion is a latent text-to-image diffusion model that has been conditioned on high-quality anime images through [Textual Inversion](https://github.com/rinongal/textual_inversion).
 
-<img src=https://cdn.discordapp.com/attachments/872361510133981234/1016022078635388979/unknown.png?3867929 width=30% height=30%>
+<img src=https://cdn.discordapp.com/attachments/872361510133981234/1016022078635388979/unknown.png?3867929 width=40% height=40%>
 <sub>Prompt: touhou 1girl komeiji_koishi portrait</sub>
 
 ## Model Description
