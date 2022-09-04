@@ -11,7 +11,7 @@ inference: false
 
 # waifu-diffusion - Diffusion for Weebs
 
-waifu-diffusion is a latent text-to-image diffusion model that has been conditioned on high-quality anime images through [Textual Inversion](https://github.com/rinongal/textual_inversion).
+waifu-diffusion is a latent text-to-image diffusion model that has been conditioned on high-quality anime images through fine-tuning.
 
 <img src=https://cdn.discordapp.com/attachments/872361510133981234/1016022078635388979/unknown.png?3867929 width=40% height=40%>
 <sub>Prompt: touhou 1girl komeiji_koishi portrait</sub>
@@ -24,7 +24,7 @@ The current model has been fine-tuned with a learning rate of 5.0e-5 for 1 epoch
 
 ## Training Data & Annotative Prompting
 
-The data used for Textual Inversion has come from a random sample of 56k Danbooru images, which were filtered based on [CLIP Aesthetic Scoring](https://github.com/christophschuhmann/improved-aesthetic-predictor) where only images with an aesthetic score greater than `6.0` were used.
+The data used for fine-tuning has come from a random sample of 56k Danbooru images, which were filtered based on [CLIP Aesthetic Scoring](https://github.com/christophschuhmann/improved-aesthetic-predictor) where only images with an aesthetic score greater than `6.0` were used.
 
 Captions are Danbooru-style captions.
 
