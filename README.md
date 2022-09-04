@@ -59,3 +59,8 @@ This project would not have been possible without the incredible work by the [Co
 
 - [Anthony Mercurio](https://github.com/harubaru)
 - [Salt](https://github.com/sALTaccount/)
+
+
+In order to reach us, you can join our [Discord server](https://discord.gg/touhouai).
+
+[![Discord Server](https://discordapp.com/api/guilds/930499730843250783/widget.png?style=banner2)](https://discord.gg/touhouai)
