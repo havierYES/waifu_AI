@@ -13,7 +13,7 @@ inference: false
 
 waifu-diffusion is a latent text-to-image diffusion model that has been conditioned on high-quality anime images through fine-tuning.
 
-<img src=https://cdn.discordapp.com/attachments/930499731451428926/1017258164439220254/unknown.png width=40% height=40%>
+<img src=https://cdn.discordapp.com/attachments/930559077170421800/1017265913231327283/unknown.png width=40% height=40%>
 
 ## Model Description
 
