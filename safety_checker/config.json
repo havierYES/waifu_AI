@@ -1,5 +1,5 @@
 {
-  "_name_or_path": "./safety_module",
+  "_name_or_path": "waifu-diffusion/safety_checker",
   "architectures": [
     "StableDiffusionSafetyChecker"
   ],
@@ -68,6 +68,7 @@
     "sep_token_id": null,
     "task_specific_params": null,
     "temperature": 1.0,
+    "tf_legacy_loss": false,
     "tie_encoder_decoder": false,
     "tie_word_embeddings": true,
     "tokenizer_class": null,
@@ -75,7 +76,7 @@
     "top_p": 1.0,
     "torch_dtype": null,
     "torchscript": false,
-    "transformers_version": "4.21.0.dev0",
+    "transformers_version": "4.21.3",
     "typical_p": 1.0,
     "use_bfloat16": false,
     "vocab_size": 49408
@@ -86,7 +87,7 @@
     "num_attention_heads": 12,
     "num_hidden_layers": 12
   },
-  "torch_dtype": "float32",
+  "torch_dtype": "float16",
   "transformers_version": null,
   "vision_config": {
     "_name_or_path": "",
@@ -133,6 +134,7 @@
     "num_attention_heads": 16,
     "num_beam_groups": 1,
     "num_beams": 1,
+    "num_channels": 3,
     "num_hidden_layers": 24,
     "num_return_sequences": 1,
     "output_attentions": false,
@@ -150,6 +152,7 @@
     "sep_token_id": null,
     "task_specific_params": null,
     "temperature": 1.0,
+    "tf_legacy_loss": false,
     "tie_encoder_decoder": false,
     "tie_word_embeddings": true,
     "tokenizer_class": null,
@@ -157,7 +160,7 @@
     "top_p": 1.0,
     "torch_dtype": null,
     "torchscript": false,
-    "transformers_version": "4.21.0.dev0",
+    "transformers_version": "4.21.3",
     "typical_p": 1.0,
     "use_bfloat16": false
   },

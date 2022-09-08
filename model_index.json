@@ -9,13 +9,13 @@
     "stable_diffusion",
     "StableDiffusionSafetyChecker"
   ],
-  "text_encoder": [
-    "transformers",
-    "CLIPTextModel"
-  ],
   "scheduler": [
     "diffusers",
     "DDIMScheduler"
+  ],
+  "text_encoder": [
+    "transformers",
+    "CLIPTextModel"
   ],
   "tokenizer": [
     "transformers",
