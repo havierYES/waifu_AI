@@ -17,6 +17,8 @@ waifu-diffusion is a latent text-to-image diffusion model that has been conditio
 
 <img src=https://cdn.discordapp.com/attachments/930559077170421800/1017265913231327283/unknown.png width=40% height=40%>
 
+[Original PyTorch Model Download Link](https://thisanimedoesnotexist.ai/downloads/wd-v1-2-full-ema.ckpt)
+
 ## Model Description
 
 The model originally used for fine-tuning is [Stable Diffusion V1-4](https://huggingface.co/CompVis/stable-diffusion-v1-4), which is a latent image diffusion model trained on [LAION2B-en](https://huggingface.co/datasets/laion/laion2B-en).
