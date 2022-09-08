@@ -13,14 +13,13 @@ inference: false
 
 waifu-diffusion is a latent text-to-image diffusion model that has been conditioned on high-quality anime images through fine-tuning.
 
-<img src=https://cdn.discordapp.com/attachments/872361510133981234/1016022078635388979/unknown.png?3867929 width=40% height=40%>
-<sub>Prompt: touhou 1girl komeiji_koishi portrait</sub>
+<img src=https://cdn.discordapp.com/attachments/930499731451428926/1017258164439220254/unknown.png width=20% height=20%>
 
 ## Model Description
 
 The model originally used for fine-tuning is [Stable Diffusion V1-4](https://huggingface.co/CompVis/stable-diffusion-v1-4), which is a latent image diffusion model trained on [LAION2B-en](https://huggingface.co/datasets/laion/laion2B-en).
 
-The current model has been fine-tuned with a learning rate of 5.0e-5 for 1 epoch on 56k Danbooru text-image pairs which all have an aesthetic rating greater than `6.0`.
+The current model has been fine-tuned with a learning rate of 5.0e-6 for 4 epochs on 56k Danbooru text-image pairs which all have an aesthetic rating greater than `6.0`.
 
 ## Training Data & Annotative Prompting
 
