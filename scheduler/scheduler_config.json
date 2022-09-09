@@ -4,9 +4,9 @@
   "beta_end": 0.012,
   "beta_schedule": "scaled_linear",
   "beta_start": 0.00085,
-  "clip_sample": true,
+  "clip_sample": false,
   "num_train_timesteps": 1000,
-  "set_alpha_to_one": true,
+  "set_alpha_to_one": false,
   "timestep_values": null,
   "trained_betas": null
 }
