@@ -13,6 +13,10 @@ inference: false
 
 waifu-diffusion is a latent text-to-image diffusion model that has been conditioned on high-quality anime images through fine-tuning.
 
+# Gradio
+
+We also support a [Gradio](https://github.com/gradio-app/gradio) web ui with diffusers to run inside a colab notebook:
+
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1_8wPN7dJO746QXsFnB09Uq2VGgSRFuYE#scrollTo=1HaCauSq546O)
 
 <img src=https://cdn.discordapp.com/attachments/930559077170421800/1017265913231327283/unknown.png width=40% height=40%>
