@@ -27,13 +27,13 @@ We also support a [Gradio](https://github.com/gradio-app/gradio) web ui with dif
 
 The model originally used for fine-tuning is [Stable Diffusion V1-4](https://huggingface.co/CompVis/stable-diffusion-v1-4), which is a latent image diffusion model trained on [LAION2B-en](https://huggingface.co/datasets/laion/laion2B-en).
 
-The current model has been fine-tuned with a learning rate of 5.0e-6 for 4 epochs on 56k Danbooru text-image pairs which all have an aesthetic rating greater than `6.0`.
+The current model has been fine-tuned with a learning rate of 5.0e-6 for 4 epochs on 56k text-image pairs obtained through Danbooru which all have an aesthetic rating greater than `6.0`.
+
+**Note:** This project has **no affiliation with Danbooru.**
 
 ## Training Data & Annotative Prompting
 
 The data used for fine-tuning has come from a random sample of 56k Danbooru images, which were filtered based on [CLIP Aesthetic Scoring](https://github.com/christophschuhmann/improved-aesthetic-predictor) where only images with an aesthetic score greater than `6.0` were used.
-
-Captions are Danbooru-style captions.
 
 ## License
 
