@@ -4,7 +4,7 @@ language:
 tags:
 - stable-diffusion
 - text-to-image
-license: bigscience-bloom-rail-1.0
+license: creativeml-openrail-m
 inference: false
 
 ---
