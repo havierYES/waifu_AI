@@ -8,5 +8,6 @@
   "num_train_timesteps": 1000,
   "set_alpha_to_one": false,
   "timestep_values": null,
-  "trained_betas": null
+  "trained_betas": null,
+  "steps_offset": 1
 }
