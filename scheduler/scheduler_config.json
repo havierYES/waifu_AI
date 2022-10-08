@@ -1,13 +1,9 @@
 {
-  "_class_name": "DDIMScheduler",
-  "_diffusers_version": "0.2.4",
+  "_class_name": "LMSDiscreteScheduler",
+  "_diffusers_version": "0.4.1",
   "beta_end": 0.012,
   "beta_schedule": "scaled_linear",
   "beta_start": 0.00085,
-  "clip_sample": false,
   "num_train_timesteps": 1000,
-  "set_alpha_to_one": false,
-  "timestep_values": null,
-  "trained_betas": null,
-  "steps_offset": 1
+  "trained_betas": null
 }

@@ -17,24 +17,15 @@ waifu-diffusion is a latent text-to-image diffusion model that has been conditio
 
 [Original Weights](https://huggingface.co/hakurei/waifu-diffusion-v1-3)
 
-# Gradio
+# Gradio & Colab
 
-We also support a [Gradio](https://github.com/gradio-app/gradio) web ui with diffusers to run Waifu Diffusion:
+We also support a [Gradio](https://github.com/gradio-app/gradio) Web UI and Colab with Diffusers to run Waifu Diffusion:
 [![Open In Spaces](https://camo.githubusercontent.com/00380c35e60d6b04be65d3d94a58332be5cc93779f630bcdfc18ab9a3a7d3388/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f25463025394625413425393725323048756767696e67253230466163652d5370616365732d626c7565)](https://huggingface.co/spaces/hakurei/waifu-diffusion-demo)
-
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1_8wPN7dJO746QXsFnB09Uq2VGgSRFuYE#scrollTo=1HaCauSq546O)
 
 ## Model Description
 
-The model originally used for fine-tuning is [Stable Diffusion V1-4](https://huggingface.co/CompVis/stable-diffusion-v1-4), which is a latent image diffusion model trained on [LAION2B-en](https://huggingface.co/datasets/laion/laion2B-en).
-
-The current model has been fine-tuned with a learning rate of 5.0e-6 for 4 epochs on 56k text-image pairs obtained through Danbooru which all have an aesthetic rating greater than `6.0`.
-
-**Note:** This project has **no affiliation with Danbooru.**
-
-## Training Data & Annotative Prompting
-
-The data used for fine-tuning has come from a random sample of 56k Danbooru images, which were filtered based on [CLIP Aesthetic Scoring](https://github.com/christophschuhmann/improved-aesthetic-predictor) where only images with an aesthetic score greater than `6.0` were used.
+[See here for a full model overview.](https://gist.github.com/harubaru/f727cedacae336d1f7877c4bbe2196e1)
 
 ## License
 
@@ -55,31 +46,18 @@ This model can be used for entertainment purposes and as a generative art assist
 ```python
 import torch
 from torch import autocast
-from diffusers import StableDiffusionPipeline, DDIMScheduler
-
-model_id = "hakurei/waifu-diffusion"
-device = "cuda"
-
+from diffusers import StableDiffusionPipeline
 
 pipe = StableDiffusionPipeline.from_pretrained(
-    model_id,
-    torch_dtype=torch.float16,
-    revision="fp16",
-    scheduler=DDIMScheduler(
-        beta_start=0.00085,
-        beta_end=0.012,
-        beta_schedule="scaled_linear",
-        clip_sample=False,
-        set_alpha_to_one=False,
-    ),
-)
-pipe = pipe.to(device)
+    'waifu-diffusion',
+    torch_dtype=torch.float32
+).to('cuda')
 
-prompt = "touhou hakurei_reimu 1girl solo portrait"
+prompt = "1girl, aqua eyes, baseball cap, blonde hair, closed mouth, earrings, green background, hat, hoop earrings, jewelry, looking at viewer, shirt, short hair, simple background, solo, upper body, yellow shirt"
 with autocast("cuda"):
-    image = pipe(prompt, guidance_scale=7.5)["sample"][0]  
+    image = pipe(prompt, guidance_scale=6)["sample"][0]  
     
-image.save("reimu_hakurei.png")
+image.save("test.png")
 ```
 
 ## Team Members and Acknowledgements
