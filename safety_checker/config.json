@@ -1,6 +1,10 @@
 {
+<<<<<<< HEAD
   "_commit_hash": null,
   "_name_or_path": "CompVis/stable-diffusion-safety-checker",
+=======
+  "_name_or_path": "waifu-diffusion/safety_checker",
+>>>>>>> b45bafccd9d0e0757b70a54c7ebc32ff56ca9ee1
   "architectures": [
     "StableDiffusionSafetyChecker"
   ],
@@ -77,7 +81,11 @@
     "top_p": 1.0,
     "torch_dtype": null,
     "torchscript": false,
+<<<<<<< HEAD
     "transformers_version": "4.22.2",
+=======
+    "transformers_version": "4.21.3",
+>>>>>>> b45bafccd9d0e0757b70a54c7ebc32ff56ca9ee1
     "typical_p": 1.0,
     "use_bfloat16": false,
     "vocab_size": 49408
@@ -161,7 +169,11 @@
     "top_p": 1.0,
     "torch_dtype": null,
     "torchscript": false,
+<<<<<<< HEAD
     "transformers_version": "4.22.2",
+=======
+    "transformers_version": "4.21.3",
+>>>>>>> b45bafccd9d0e0757b70a54c7ebc32ff56ca9ee1
     "typical_p": 1.0,
     "use_bfloat16": false
   },

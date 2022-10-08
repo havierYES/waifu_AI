@@ -1,5 +1,5 @@
 {
-  "_name_or_path": "openai/clip-vit-large-patch14",
+  "_name_or_path": "waifu-diffusion/text_encoder",
   "architectures": [
     "CLIPTextModel"
   ],
@@ -18,8 +18,13 @@
   "num_attention_heads": 12,
   "num_hidden_layers": 12,
   "pad_token_id": 1,
+<<<<<<< HEAD
   "projection_dim": 768,
   "torch_dtype": "float16",
   "transformers_version": "4.22.2",
+=======
+  "torch_dtype": "float16",
+  "transformers_version": "4.21.3",
+>>>>>>> b45bafccd9d0e0757b70a54c7ebc32ff56ca9ee1
   "vocab_size": 49408
 }

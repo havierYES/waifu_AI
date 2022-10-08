@@ -11,7 +11,11 @@
   ],
   "scheduler": [
     "diffusers",
+<<<<<<< HEAD
     "LMSDiscreteScheduler"
+=======
+    "DDIMScheduler"
+>>>>>>> b45bafccd9d0e0757b70a54c7ebc32ff56ca9ee1
   ],
   "text_encoder": [
     "transformers",

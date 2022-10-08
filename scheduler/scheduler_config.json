@@ -4,6 +4,13 @@
   "beta_end": 0.012,
   "beta_schedule": "scaled_linear",
   "beta_start": 0.00085,
+<<<<<<< HEAD
   "num_train_timesteps": 1000,
+=======
+  "clip_sample": false,
+  "num_train_timesteps": 1000,
+  "set_alpha_to_one": false,
+  "timestep_values": null,
+>>>>>>> b45bafccd9d0e0757b70a54c7ebc32ff56ca9ee1
   "trained_betas": null
 }
