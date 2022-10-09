@@ -1,11 +1,6 @@
 {
   "_class_name": "AutoencoderKL",
-<<<<<<< HEAD
   "_diffusers_version": "0.4.1",
-=======
-  "_diffusers_version": "0.2.4",
-  "_name_or_path": "waifu-diffusion/vae",
->>>>>>> b45bafccd9d0e0757b70a54c7ebc32ff56ca9ee1
   "act_fn": "silu",
   "block_out_channels": [
     128,
