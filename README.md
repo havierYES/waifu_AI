@@ -49,7 +49,7 @@ from torch import autocast
 from diffusers import StableDiffusionPipeline
 
 pipe = StableDiffusionPipeline.from_pretrained(
-    'waifu-diffusion',
+    'hakurei/waifu-diffusion',
     torch_dtype=torch.float32
 ).to('cuda')
 
