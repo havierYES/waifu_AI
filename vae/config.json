@@ -1,0 +1,30 @@
+{
+  "_class_name": "AutoencoderKL",
+  "_diffusers_version": "0.4.1",
+  "_name_or_path": "C:\\Users\\haru/.cache\\huggingface\\diffusers\\models--hakurei--waifu-diffusion\\snapshots\\2dff9dab944d77470b545a1bbe86fffb08d54912\\vae",
+  "act_fn": "silu",
+  "block_out_channels": [
+    128,
+    256,
+    512,
+    512
+  ],
+  "down_block_types": [
+    "DownEncoderBlock2D",
+    "DownEncoderBlock2D",
+    "DownEncoderBlock2D",
+    "DownEncoderBlock2D"
+  ],
+  "in_channels": 3,
+  "latent_channels": 4,
+  "layers_per_block": 2,
+  "norm_num_groups": 32,
+  "out_channels": 3,
+  "sample_size": 256,
+  "up_block_types": [
+    "UpDecoderBlock2D",
+    "UpDecoderBlock2D",
+    "UpDecoderBlock2D",
+    "UpDecoderBlock2D"
+  ]
+}
