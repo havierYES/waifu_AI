@@ -13,9 +13,11 @@ inference: true
 
 waifu-diffusion is a latent text-to-image diffusion model that has been conditioned on high-quality anime images through fine-tuning.
 
-<img src=https://i.imgur.com/Y5Tmw1S.png width=75% height=75%>
+![image](https://user-images.githubusercontent.com/26317155/210155933-db3a5f1a-1ec3-4777-915c-6deff2841ce9.png)
 
-[Original Weights](https://huggingface.co/hakurei/waifu-diffusion-v1-3)
+<sub>masterpiece, best quality, 1girl, green hair, sweater, looking at viewer, upper body, beanie, outdoors, watercolor, night, turtleneck</sub>
+
+[Original Weights](https://huggingface.co/hakurei/waifu-diffusion-v1-4)
 
 # Gradio & Colab
 
@@ -62,9 +64,9 @@ image.save("test.png")
 
 ## Team Members and Acknowledgements
 
-This project would not have been possible without the incredible work by the [CompVis Researchers](https://ommer-lab.com/).
+This project would not have been possible without the incredible work by Stability AI and Novel AI.
 
-- [Anthony Mercurio](https://github.com/harubaru)
+- [Haru](https://github.com/harubaru)
 - [Salt](https://github.com/sALTaccount/)
 - [Sta @ Bit192](https://twitter.com/naclbbr)
 
