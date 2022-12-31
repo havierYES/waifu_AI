@@ -9,7 +9,7 @@ inference: true
 
 ---
 
-# waifu-diffusion v1.3 - Diffusion for Weebs
+# waifu-diffusion v1.4 - Diffusion for Weebs
 
 waifu-diffusion is a latent text-to-image diffusion model that has been conditioned on high-quality anime images through fine-tuning.
 
